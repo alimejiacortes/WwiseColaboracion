@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E7A7CF9-9724-413D-8CC3-FC352703D4E4}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Cano" ID="{1E7A7CF9-9724-413D-8CC3-FC352703D4E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sobres" ID="{61B2B1D8-31A2-4985-A0BF-4AE59E48EF54}" ShortID="194071709">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Guns, Pistol, Revolver, Shot x4 SND6028" ID="{9A90DC87-41AF-49A2-A5D7-CDF3472424A4}">
+							<Language>SFX</Language>
+							<AudioFile>Guns, Pistol, Revolver, Shot x4 SND6028.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="509851781"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Guns, Pistol, Revolver, Shot x4 SND6028" ID="{9A90DC87-41AF-49A2-A5D7-CDF3472424A4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
