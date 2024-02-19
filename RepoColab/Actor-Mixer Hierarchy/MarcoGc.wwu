@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6877A3B-19A0-4BEE-8F1B-C1FE1296A54E}" SchemaVersion="119" RootDocumentID="{9E265D61-3C37-4762-BEA1-63B2EABCDE2A}" ParentDocumentID="{9E265D61-3C37-4762-BEA1-63B2EABCDE2A}">
+	<AudioObjects>
+		<WorkUnit Name="MarcoGc" ID="{A6877A3B-19A0-4BEE-8F1B-C1FE1296A54E}" OwnerID="{9E265D61-3C37-4762-BEA1-63B2EABCDE2A}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="AMBS" ID="{111D027D-DD21-4D19-A5AE-808C42D1780C}" ShortID="457304784">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8943FE8E-B8EE-47D9-A3CC-483CEA9F654D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3BE2E277-B26F-463D-9A8A-A197D963E7E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Underwater, Designed Underwater, Loop SND63038" ID="{7A09C535-5521-400A-AFFD-62C3607BC5CB}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience, Underwater, Designed Underwater, Loop SND63038.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="619266250"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Underwater, Designed Underwater, Loop SND63038" ID="{7A09C535-5521-400A-AFFD-62C3607BC5CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

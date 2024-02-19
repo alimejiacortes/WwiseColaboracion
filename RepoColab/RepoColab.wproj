@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.0" WwiseBuild="8367">
+<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.1" WwiseBuild="8417">
 	<ProjectInfo>
 		<Project Name="RepoColab" ID="{A3A7F454-C325-4F57-A18A-2F0CA5D82CD7}">
 			<Platforms>
