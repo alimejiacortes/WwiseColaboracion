@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BE00A49F-A84B-4F4A-B362-FA0C22790EEF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Gama" ID="{BE00A49F-A84B-4F4A-B362-FA0C22790EEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sonido trukutru" ID="{7133ACB3-40C4-458E-894D-E2D7B6F08E03}" ShortID="583859720">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND77339"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://server.soundly.cloud/?Type=GetFile&amp;SessionID=1708375343G_67eoPlIgulo4d3eqR&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND77339/sfy_ltgNPGQuoPsOLPTrHVQXonKIsJaUrR"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="4.0"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[&quot;sumToMono&quot;]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/flower_boy/Documents/Soundly Audio/Cartoon, Boing, Cartoon Comic Expressions, Fly, Crash, Impact SND77339 4.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.005"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.28"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cartoon, Boing, Cartoon Comic Expressions, Fly, Crash, Impact SND77339 4" ID="{674DDE09-32A1-4334-A2DB-0D916888A6FA}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND77339"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.02"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.12"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Cartoon, Boing, Cartoon Comic Expressions, Fly, Crash, Impact SND77339 4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="401465772"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cartoon, Boing, Cartoon Comic Expressions, Fly, Crash, Impact SND77339 4" ID="{674DDE09-32A1-4334-A2DB-0D916888A6FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
