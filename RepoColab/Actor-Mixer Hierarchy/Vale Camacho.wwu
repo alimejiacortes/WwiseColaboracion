@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76AF595E-C913-4A13-8023-5B1E1233678A}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Vale Camacho" ID="{76AF595E-C913-4A13-8023-5B1E1233678A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="player_killed_1" ID="{DA25AC56-0185-4A06-8455-C82621ADF4B5}" ShortID="332269235">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="player_killed_1" ID="{DD73A4E1-5C8D-408F-88C4-74F77F2BDF57}">
+							<Language>SFX</Language>
+							<AudioFile>player_killed_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="880834553"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="player_killed_1" ID="{DD73A4E1-5C8D-408F-88C4-74F77F2BDF57}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
