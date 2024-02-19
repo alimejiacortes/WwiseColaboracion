@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{780AC870-519B-4E00-8514-79379C5E7BA5}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Jesus" ID="{780AC870-519B-4E00-8514-79379C5E7BA5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Jesus" ID="{4CFD51DB-F3FE-4308-92DF-0C05D7788401}" ShortID="785425507">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Load" ID="{17D0873A-34E0-44FE-986C-D93B69C32CB5}">
+							<Language>SFX</Language>
+							<AudioFile>Load.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="669661109"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Load" ID="{17D0873A-34E0-44FE-986C-D93B69C32CB5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
