@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A8A8A672-C5AC-4972-BB0D-603813472765}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Samantha" ID="{A8A8A672-C5AC-4972-BB0D-603813472765}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="bark" ID="{64250BC3-AD01-4998-96FC-FABA7F868AC6}" ShortID="1041814880">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND14542"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1708375460EunkItlclIvRELVooMK&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND14542/sfy_wGJJlFOlrNBWJaeOdzERWZVEXgPaVH"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="11.1763125"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\mchav\Soundly Audio\Animals, Dog, Barking, Small, Two Barking SND14542.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.07486979166666667"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Animals, Dog, Barking, Small, Two Barking SND14542" ID="{4BF9BFA7-115B-4186-8003-7720E5AB1B90}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND14542"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.836768188476563"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Animals, Dog, Barking, Small, Two Barking SND14542.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="806627480"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Animals, Dog, Barking, Small, Two Barking SND14542" ID="{4BF9BFA7-115B-4186-8003-7720E5AB1B90}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
