@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DAC6D6A2-5E17-4FA9-8D29-47E0FEE40E2E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Tadeo" ID="{DAC6D6A2-5E17-4FA9-8D29-47E0FEE40E2E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Tadeo 2" ID="{0744DB89-1661-4B1B-9449-6BCF8942B6CD}" ShortID="313486563">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{418B74ED-1C03-44D8-8106-DF6F82423413}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD68E597-C049-4D47-9A35-8886E1E83D1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Communications, Radio, Turn On, Receive Static, Turn Off, Short SND33146 2" ID="{24020E3D-AD92-4005-B67F-77F120AE90F7}">
+							<Language>SFX</Language>
+							<AudioFile>Communications, Radio, Turn On, Receive Static, Turn Off, Short SND33146 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="53320510"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Communications, Radio, Turn On, Receive Static, Turn Off, Short SND33146 2" ID="{24020E3D-AD92-4005-B67F-77F120AE90F7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
